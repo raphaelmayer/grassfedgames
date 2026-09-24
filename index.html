@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,18 +12,20 @@
     <meta property="og:url" content="https://grassfed.games">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="theme-color" content="#4a7c59">
-    
+
     <title>Grassfed Games</title>
 
+    <link rel="preload" as="image" href="./public/logo.png" fetchpriority="high">
     <link rel="manifest" href="manifest.json">
     <link rel="stylesheet" href="index.css">
     <link rel="icon" href="favicon.ico">
 </head>
+
 <body>
     <main class="container">
-        <img src="./public/logo.png" alt="Grassfed Games" loading="lazy">
+        <img src="./public/logo.png" alt="Grassfed Games" fetchpriority="high" decoding="async">
     </main>
-    
+
     <!--<a class="cta" href="https://store.steampowered.com/...">Wishlist on Steam</a>-->
 
     <!--
@@ -36,4 +39,5 @@
         <p>© 2026 Grassfed Games. <!--<a href="mailto:hello@grassfed.games">hello@grassfed.games</a>--></p>
     </footer>
 </body>
+
 </html>
