@@ -1,0 +1,9 @@
+{
+  "name": "Grassfed Games",
+  "short_name": "Grassfed",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fff",
+  "theme_color": "#4a7c59",
+  "icons": [{ "src": "/public/logo.png", "sizes": "192x192", "type": "image/png" }]
+}
